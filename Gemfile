@@ -13,7 +13,7 @@ gem 'require_all'
 
 
 group :development do
-  gem "capybara"
+  gem "capybara", ">= 3.13.2"
   gem "pry"
   gem "sqlite3"
   gem "shotgun"
